@@ -15,7 +15,7 @@ hint: что такое print?
 
 """
  _____         _      _____ 
-|_   _|       | |    / __  \
+|_   _|       | |    / __  
   | | __ _ ___| | __ `' / /'
   | |/ _` / __| |/ /   / /  
   | | (_| \__ \   <  ./ /___
@@ -27,13 +27,26 @@ hint: что такое print?
 hint: цикл, если и "%"
 """
 
-# Замените это своим кодом
+# count = int(input("Строка"))
+# for i in range(1, count + 1):
+# 	if i % 3 == 0 and i % 5 == 0:
+# 		print(i, "FizzBuzz")
+#		continue
+#	elif i % 3 == 0:
+#		print(i, "Fizz")
+#		continue
+#	elif i % 5 == 0:	
+#		print(i, "Buzz") 
+#	else:
+#		print(i)
+		
+
 
 """
  _____         _      _____ 
 |_   _|       | |    |____ |
   | | __ _ ___| | __     / /
-  | |/ _` / __| |/ /     \ \
+  | |/ _` / __| |/ /     \ 
   | | (_| \__ \   <  .___/ /
   \_/\__,_|___/_|\_\ \____/ 
 
@@ -42,7 +55,15 @@ hint: цикл, если и "%"
 hint: https://ru.wikihow.com/%D0%B2%D1%8B%D1%81%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%BE%D1%81%D0%BD%D1%8B%D0%B5-%D0%B3%D0%BE%D0%B4%D1%8B
 """
 
-# Замените это своим кодом
+#def visoki_god(year):
+#	if year % 4 == 0 and year % 100 != 0:
+#		print(f"{year} этот год высокостный")
+#		
+#	else: 
+#		print(f"{year} Этот год не высокостный")
+#
+#
+#visoki_god(int(input("Введите год")))
 
 """
  _____         _        ___ 
@@ -57,13 +78,23 @@ hint: https://ru.wikihow.com/%D0%B2%D1%8B%D1%81%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0
 hint: https://letpy.com/handbook/builtins/reversed/
 """
 
-# Замените это своим кодом
+# def polindrom(item):
+#     de__item =''.join(reversed(item)) 
+#     if item == de__item:
+#         print(f"{item} Это палиндромом")
+#     else:
+#         print(f"{item} Это не палиндромом")
+
+
+# polindrom(input("Слово "))
+
+    
 
 """
  _____         _      _____ 
 |_   _|       | |    |  ___|
   | | __ _ ___| | __ |___ \ 
-  | |/ _` / __| |/ /     \ \
+  | |/ _` / __| |/ /     \ 
   | | (_| \__ \   <  /\__/ /
   \_/\__,_|___/_|\_\ \____/ 
 
@@ -72,13 +103,22 @@ hint: https://letpy.com/handbook/builtins/reversed/
 hint: https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB
 """
 
-# Замените это своим кодом
+# def factorial(num):
+# 	result = 1
+# 	for i in range(1, num + 1):
+# 		result = result * i
+# 	print(result)
+
+
+# factorial (int(input("number ")))
+
+
 
 """
  _____         _       ____ 
 |_   _|       | |     / ___|
   | | __ _ ___| | __ / /___ 
-  | |/ _` / __| |/ / | ___ \
+  | |/ _` / __| |/ / | ___  
   | | (_| \__ \   <  | \_/ |
   \_/\__,_|___/_|\_\ \_____/
 
@@ -120,7 +160,3 @@ hint 2: попробуйте решить с помощью рекурсии
 """
 
 # Замените это своим кодом
-
-
-
-
